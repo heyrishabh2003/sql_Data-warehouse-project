@@ -54,6 +54,7 @@ These insights empower stakeholders to make data-driven business decisions.
 ---
 
 ## 🏗️ Data Architecture (Medallion Architecture)
+![datawarehouse](https://github.com/user-attachments/assets/b0bc7dca-32a3-48bd-9730-8c4c659329dd)
 
 ### 🔹 Bronze Layer (Raw Data)
 - **Source:** ERP & CRM Systems (CSV Files)
@@ -111,10 +112,3 @@ Processed data is consumed by:
 
 ---
 
-## 🗂️ Repository Structure 
-sql_Data-warehouse-project/
-└── scripts/
-├── bronze/ # DDL for Bronze layer (raw ingestion)
-├── silver/ # Stored procedures for Silver layer (data cleansing and transformation)
-├── gold/ # DDL for Gold layer (business-ready views and models)
-└── init_database.sql # Initial script to set up the database and schemas
