@@ -111,5 +111,10 @@ Processed data is consumed by:
 
 ---
 
-## 🗂️ Folder Structure (Example)
-
+## 🗂️ Repository Structure 
+sql_Data-warehouse-project/
+└── scripts/
+├── bronze/ # DDL for Bronze layer (raw ingestion)
+├── silver/ # Stored procedures for Silver layer (data cleansing and transformation)
+├── gold/ # DDL for Gold layer (business-ready views and models)
+└── init_database.sql # Initial script to set up the database and schemas
