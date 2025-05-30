@@ -110,5 +110,29 @@ Processed data is consumed by:
 - CSV Data Files (ERP & CRM)
 - Git & GitHub for version control
 
+## 📈 Visual Diagrams
+
+### Data Flow Diagram  
+This diagram illustrates the end-to-end data flow starting from source CSV files (ERP & CRM) through the Medallion Architecture layers — Bronze, Silver, and Gold — and finally to the consumption layer for analytics and reporting.
+
+![image](https://github.com/user-attachments/assets/1c43b672-9ae5-476a-8332-1415602b296c)
+
+
 ---
+
+### Integration Model  
+The integration model visualizes how the cleaned tables in the Silver layer relate to each other through primary and foreign keys, demonstrating the relationships between dimension and fact tables.
+
+![image](https://github.com/user-attachments/assets/44154ec7-cc9e-4f33-bf80-cf045aefde4a)
+
+
+---
+
+### Data Mart (Star Schema)  
+This star schema diagram shows the fact table at the center surrounded by dimension tables in the Gold layer, representing the optimized schema for analytical queries.
+
+![image](https://github.com/user-attachments/assets/ee786b31-28a3-46ce-bc96-655332a1481b)
+
+
+
 
