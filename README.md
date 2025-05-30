@@ -134,5 +134,8 @@ This star schema diagram shows the fact table at the center surrounded by dimens
 ![image](https://github.com/user-attachments/assets/ee786b31-28a3-46ce-bc96-655332a1481b)
 
 
+##🙋 About Me
+I am Rishabh, an aspiring Data Analyst. Through this project, I have learned how data flows and works behind the scenes before it is analyzed. This experience has helped me understand the importance of data engineering, cleansing, and modeling in preparing data for meaningful analysis.
 
+Connect with me on LinkedIn: https://www.linkedin.com/in/heyrishabh2003/
 
